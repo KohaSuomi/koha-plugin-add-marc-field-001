@@ -1,4 +1,4 @@
-package Koha::Plugin::KohaSuomi::AddMARCfield001;
+package Koha::Plugin::Fi::KohaSuomi::AddMARCfield001;
 
 use Modern::Perl;
 use base qw(Koha::Plugins::Base);
