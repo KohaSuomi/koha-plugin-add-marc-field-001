@@ -49,7 +49,7 @@ sub uninstall() {
 sub after_biblio_action {
     my ( $self, $args ) = @_;
 
-    return 1 if ($args->{action} ne 'create');
+    return 1 if (!($args->{action} eq 'create' || $args->{action} eq 'modify'));
 
     my $bib = $args->{biblio};
     my $record = eval { $bib->metadata->record };
