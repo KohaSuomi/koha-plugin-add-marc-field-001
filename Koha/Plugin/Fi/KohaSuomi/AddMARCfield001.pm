@@ -14,7 +14,7 @@ our $metadata = {
     minimum_version => '19.05.00.000',
     maximum_version => undef,
     version         => '0.0.1',
-    description     => 'When cataloguing a new biblio record, automatically add field 001 if it is missing, by using the record biblionumber',
+    description     => 'When cataloguing a new biblio record, automatically add field 001 if it is missing, by using the record biblionumber. (Paikalliskannat, Täti)',
 };
 
 sub new {
